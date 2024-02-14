@@ -1,0 +1,126 @@
+.container{
+  display:flex;
+  justify-content: space-evenly;
+}
+.rectangle{
+  height: 250px;
+  width: 570px;
+  background-color: #3fbbc2;
+}
+.rectangle2{
+  height:5in;
+  width:18.1in;
+  background-color: #3fbbc2;
+  margin-top: 7px;
+  position: absolute;
+}
+.container2{
+  display:flex;
+  position: relative;
+  left:14.4in;
+  top:187px;
+}
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    position:absolute;
+    right:1370px;
+    border-bottom: 300px solid yellowgreen;
+    z-index: 3;
+  }
+  .arrow-up2{
+    width: 0; 
+    height: 0; 
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    position:relative;
+    right:390px;
+    bottom:200px;
+    border-bottom: 500px solid green;
+    z-index: 2;
+  }
+  .rectangle3{
+    height: 10px;
+    width: 18.1in;
+    background-color: #48ae4c;
+    position:relative;
+    top:155px;
+    right:1030px;
+  }
+  .container3{
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    top:596px;
+  }
+  .fa-person{
+    font-size:150px;
+    z-index: 5;
+    color:rgb(0, 148, 253);
+  }
+  #person2{
+    color:rgb(46, 90, 123)
+  }
+
+  .container4{
+      
+    position: relative;
+  }
+  #circle1{
+    position: relative;
+    left:80px;
+    font-size: 5em;
+    color:salmon;
+  }
+  #circle2{
+    position:relative; 
+    left:0px;
+    top:210px;
+    font-size: 5em;
+    z-index:3;
+    color:salmon;
+
+  }
+  #circle3{
+    position:relative;
+    top:100px;
+    left:200px;
+    font-size:7em;
+    color:rgb(245, 210, 39);
+  }
+  #circle4{
+    position:relative;
+    top:40px;
+    left:400px;
+    font-size:6em;
+    color:salmon;
+    
+  }
+  #circle5{
+     position:relative;
+    top:220px;
+    left:150px;
+    font-size:8em;
+    z-index:2;
+    color:salmon;
+  }
+  #circle6{
+    position: relative; 
+    left:300px;
+    top:190px;
+    font-size: 5em;
+    z-index:2;
+    color:rgb(245, 210, 39);
+  }
+@media(max-width:620px){
+  .rectangle2{
+    background-color: tomato;
+  }
+  }
+  @media(max-width:768px){
+    .rectangle3{
+      background-color: black; 
+    }
+  }
